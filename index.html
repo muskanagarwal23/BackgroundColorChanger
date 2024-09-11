@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Switcher</title>
+
+    <style>
+        .canvas{
+            /* background-color: #fff; */
+            margin: auto;
+            width: 50%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            padding: 80px 50px;
+            border-radius: 8px;
+            color: #212121;
+            text-decoration: none;
+            /* border: 2px solid #212121; */
+
+        }
+
+        .button{
+            display: inline-block;
+            border: 2px solid black ;
+            padding: 70px;
+            cursor:pointer;
+        }
+
+       
+    </style>
+</head>
+<body>
+    
+<div class="canvas">
+    <h1>Color Scheme Switcher</h1>
+    <span class="button" id="red" style="background-color: red;"></span>
+    <span class="button" id="green" style="background-color: green;"></span>
+    <span class="button" id="blue" style="background-color: blue;"></span>
+    <span class="button" id="yellow" style="background-color: yellow;"></span>
+    <h2>Click on one of the colors above
+        <span>to change the background color</span>
+    </h2>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
